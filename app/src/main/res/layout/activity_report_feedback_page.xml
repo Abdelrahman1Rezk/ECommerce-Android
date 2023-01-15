@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".report_feedback_page">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Selling on Products"
+        android:layout_marginBottom="15sp"
+        android:textSize="20sp"
+    />
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/bar_chart"
+    />
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transictions"
+        android:textSize="20sp"
+    />
+
+    <ListView
+        android:id="@+id/list_trans"
+        android:divider="#00000000"
+        android:dividerHeight="15.0sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

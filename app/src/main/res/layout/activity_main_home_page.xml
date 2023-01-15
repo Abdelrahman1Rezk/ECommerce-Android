@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12sp"
+    tools:context=".MainHomePage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/outliend_field"
+            android:id="@+id/to_profile"
+            android:padding="12sp"
+            android:drawablePadding="12sp"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/profile_icon"
+            android:hint="Profile"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:textColor="@color/white"
+            android:background="@drawable/icon_button_search" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonca"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:textColor="@color/white"
+            android:background="@drawable/icon_button_shopping_card" />
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="15sp"
+        android:text="Category"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+    <ListView
+        android:id="@+id/list_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:gravity="center_vertical"
+    tools:context=".new_googlemap_linear">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="20mm"
+        android:layout_height="20mm"
+        android:layout_gravity="center_horizontal"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:layout_marginBottom="15sp"
+        app:srcCompat="@drawable/app_logo_ffffff" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginBottom="15sp"
+        android:text="Get Location"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="15sp"
+        android:text="determine your location to a good service"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        />
+
+
+    <EditText
+        android:id="@+id/location_view_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Location is:"
+        android:layout_marginBottom="15sp"
+        android:drawableStart="@drawable/location_icon"
+        android:drawablePadding="12sp"
+        android:background="@drawable/outliend_field"
+        android:padding="12sp"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/location_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        android:background="@drawable/outliend_field"
+        android:textAllCaps="false"
+        android:textColor="@color/main_color"
+        android:layout_marginBottom="15sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/toconforderLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order Location"
+        android:background="@drawable/gradient_background"
+        android:textColor="@color/white"
+
+    />
+
+</LinearLayout>

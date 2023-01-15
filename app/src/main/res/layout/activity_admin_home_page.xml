@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".admin_Home_page">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Home page"
+        android:textSize="22dp"
+        android:layout_marginBottom="15sp"
+        android:textAlignment="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Categories"
+        android:layout_marginBottom="15sp"
+        android:textAllCaps="false"
+        android:textColor="@color/main_color"
+        android:background="@drawable/outliend_field"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginBottom="15sp"
+        android:textColor="@color/main_color"
+        android:background="@drawable/outliend_field"
+        android:text="Manage Products" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginBottom="15sp"
+        android:textColor="@color/main_color"
+        android:background="@drawable/outliend_field"
+        android:text="Report &amp; Feedback page" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedbacks || Rate"
+        android:textSize="22sp"
+        />
+
+    <ListView
+        android:id="@+id/feedbacks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:dividerHeight="15.0sp"
+
+
+        />
+</LinearLayout>

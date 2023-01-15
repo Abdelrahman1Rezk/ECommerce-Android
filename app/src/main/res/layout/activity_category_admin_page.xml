@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:orientation="vertical"
+    tools:context=".category_admin_page">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10sp"
+        android:text="Admin Category Page"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        />
+
+    <EditText
+        android:id="@+id/category_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/outliend_field"
+        android:padding="12sp"
+        android:inputType="number"
+        android:hint="Product Id"
+        />
+
+    <EditText
+        android:id="@+id/category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/outliend_field"
+        android:padding="12sp"
+        android:inputType="text"
+        android:hint="Category Name"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Add New Category" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outliend_field"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/main_color"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Update Category" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outliend_field"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/main_color"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Delete Category" />
+
+
+</LinearLayout>

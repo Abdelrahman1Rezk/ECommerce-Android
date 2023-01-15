@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:orientation="vertical"
+    tools:context=".search_page">
+
+    <EditText
+        android:id="@+id/editTextTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12sp"
+        android:background="@drawable/outliend_field"
+        android:drawablePadding="12sp"
+        android:ems="10"
+        android:hint="Enter a Product"
+        android:inputType="text"
+        android:padding="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/gradient_background"
+            android:text="Search"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonmic"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:textColor="@color/white"
+            android:background="@drawable/icon_button_audio" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttoncamera"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:textColor="@color/white"
+            android:background="@drawable/icon_button_scan"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".select_method">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="20mm"
+        android:layout_height="20mm"
+        android:layout_gravity="center_horizontal"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:layout_marginTop="50sp"
+        app:srcCompat="@drawable/password_icon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="10sp"
+        android:text="Select Method"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/via_sms_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2E2E2"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginBottom="25sp"
+        android:text="Via SMS" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/via_email_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2E2E2"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Via E-mail" />
+</LinearLayout>

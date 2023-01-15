@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nameofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="New Product Name"
+        />
+
+    <EditText
+        android:id="@+id/descofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="New Product Description" />
+
+    <EditText
+        android:id="@+id/priceofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="New Product Price" />
+
+    <EditText
+        android:id="@+id/srcofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="New Product Src Img" />
+    <EditText
+        android:id="@+id/catgofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="New Category Name" />
+    <EditText
+        android:id="@+id/avaofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="New Number of available products" />
+
+    <Button
+        android:id="@+id/updateofproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update" />
+</LinearLayout>

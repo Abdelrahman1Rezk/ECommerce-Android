@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15099947879",
+    "project_id": "ecommercemobilecomputing",
+    "storage_bucket": "ecommercemobilecomputing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15099947879:android:08c0ac22a510e260f25dc2",
+        "android_client_info": {
+          "package_name": "com.example.mobilecomputingproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15099947879-so322i1l4iq1ua8mko0irp4j572ahlij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1s5g3tUvExuWFRfx6V6C4uZsuLQheaCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15099947879-so322i1l4iq1ua8mko0irp4j572ahlij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
